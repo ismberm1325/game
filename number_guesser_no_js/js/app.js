@@ -1,7 +1,7 @@
 let countMin = 1,
     countMax = 10,
     win = getRandomNum(countMin, countMax),
-    guessesLeft = 5;
+    guessesLeft = 3;
 
 const game = document.querySelector("#game"),
     minNum = document.querySelector(".min-num"),
